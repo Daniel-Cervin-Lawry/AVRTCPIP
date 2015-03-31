@@ -3,6 +3,8 @@ c – char
 i – int
 p – pointer
 str – string
+
+Programming Suffixes:
 _t – type
 
 Examples:
@@ -12,7 +14,7 @@ pcdata = pointer to cdata
 
 Example Code Block:
 if (code) {
-Code block
+    Code block
 }
 
 Keep code, characters, integers, pointers, and functions in the lower case if possible.
@@ -21,3 +23,14 @@ Doxygen syntax
 /// Allow for commenting on single lines
 /** to comment multiple lines 
 **/ end multiple line comment
+
+
+
+Explination: These standards will make the code more human readable and therefore easier to debug
+
+For example the prefixes and suffixes make information about the type of variable avaluble in the name so a programmer looking 
+at the code doesn't need to look for the definition to find out what a variable is, this saves a lot of time in the long run.
+
+While coding the prefixes can make it easier to put variables into the code because if all the ints start with 'i' you only
+need to type 'i' and a dropdown menue will appear with all the integer variables avaluble for use where you are coding.
+
